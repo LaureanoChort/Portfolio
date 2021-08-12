@@ -413,7 +413,7 @@ body {
 	background-color: var(--color-cont2);
 	cursor: pointer;
 	transition: .3s;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 .my-cv:hover {
