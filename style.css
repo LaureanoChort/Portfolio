@@ -369,7 +369,7 @@ body {
 	width: 600px;
 	color: var(--color-cont);
 	font-size: 1.1rem;
-	text-align: justify;
+	text-align: left;
 	font-weight: 500;
 	margin-bottom: 1rem;
 }
@@ -762,7 +762,7 @@ hr {
 	}
 	.project .pr-left p {
 		width: 400px;
-		text-align: justify;
+		text-align: left;
 	}
 	.pr-right{
 		width: auto;
