@@ -1,173 +1,407 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Laureano Chort</title>
-    <link rel="shortcut icon" href="images/favicon.png">
-	<link href="//db.onlinewebfonts.com/c/55d433372d270829c51e2577a78ef12d?family=Monument+Extended" rel="stylesheet" type="text/css"/> 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-</head>
-<body>
-	<div class="nav-background">
-		<div class="nav">
-			<div class="close-btn">
-				<i class="fas fa-times"></i>
-			</div>
-			<ul>
-				<li><a class="menu-item" href="#home">Inicio</a></li>
-				<li><a class="menu-item" href="#about-me">Sobre mi</a></li>
-				<li><a class="menu-item" href="#projects">Proyectos</a></li>
-				<li><a class="menu-item" href="#contact">Contacto</a></li>
-			</ul>
-		</div>
-	</div>
-	<div class="header">
-		<div class="home" id="home">
-			<div class="topbar">
-				<div class="menu-btn">
-					<i class="fas fa-bars"></i>
-				</div>
-				<div class="right">
-					<a href="https://github.com/LaureanoChort" target="_blank"><i class="fab fa-github"></i></a>
-				</div>
-			</div>
-			<div class="main">
-				<div class="text">
-					<h1 class="text-1">Laureano Chort</h1>
-					<div class="txt-cont">
-						<h3 class="text-2"></h3><div class="cursor"></div>
-					</div>
-				</div>
-			</div>
-			<div class="arrow-btn">
-				<a href="#about-me"><i class="fas fa-chevron-down"></i></a>
-			</div>
-			<div class="up-btn">
-				<a href="#home"><i class="far fa-arrow-alt-circle-up"></i></a>
-			</div>
-		</div>
-	</div>
-	<section class="about-me section" id="about-me">
-		<h2 class="title hidden title-ap">Sobre mi</h2>
-		<div class="about-content">
-			<div class="left">
-				<div>
-					<img class="img-wrapper hidden" src="images/me.jpg">
-				</div>
-			</div>
-			<div class="right">
-				<p class="hidden">
-					Hola, mucho gusto! Me llamo Laureano Chort, soy desarrollador front-end. Tengo 27 años y vivo en Villa Mercedes, San Luis (dispuesto a reubicarme).
-				</p>
-				<p class="hidden">
-					Descubrí en la programación, y mas específicamente en el desarrollo web, una actividad que me apasiona y me impulsa a seguir aprendiendo cada día!
-				</p>
-				<p class="hidden">
-					Adquirí los fundamentos basicos con el curso "Argentina Programa", pero los he profundizado de forma autodidacta.
-				</p>
-				<p class="hidden">
-					Actualmente estoy buscando mi primera oportunidad en este rubro mientras amplío mis conocimientos en JavaScript, creando proyectos para poner en práctica lo aprendido y con el objetivo de dar el paso a ReactJS.
-				</p>
-				<div class="cv-btn-cont hidden">
-					<a class="my-cv" href="https://drive.google.com/file/d/1x1vljSENaD6CzpO-7c2FnkvbMcj5qA6y/view?usp=sharing" target="_blank">Mi CV</a>
-				</div>
-			</div>
-		</div>
-		<div class="stack">
-			<h3 class="title">Stack</h3>
-			<ul class="items">
-				<li><i class="fab fa-html5"></i><p class="s-name">HTML</p></li>
-				<li><i class="fab fa-css3-alt"></i><p class="s-name">CSS</p></li>
-				<li><i class="fab fa-js"></i><p class="s-name">JavaScript</p></li>
-				<li><i class="fab fa-git-alt"></i><p class="s-name">Git</p></li>
-			</ul>
-		</div>
-	</section>
-	<section class="projects section" id="projects">
-		<h2 class="title hidden title-ap">Proyectos</h2>
-		<div class="projects-wrapper">
-			<div class="project">
-				<div class="pr-left hidden">
-					<h3>CrossMarket</h3>
-					<p>WebApp en la que podemos elegir entre distintos elementos de entrenamiento y agregarlos a un carrito de compras. Dentro de este último podemos elegir la cantidad que queremos comprar de cada uno de los elementos seleccionados, tambien podemos ver el monto total a gastar, ademas de tener la opcion de eliminar algun elemento en particular o directamente vaciar el carrito. En este proyecto puse en practica los conceptos de POO, destructuring, metodos .map(), .find(), .filter(), a traves de fetch accedí a un JSON en donde estan almacenados los datos de los elementos, y utilicé funciones asíncronas (junto con try-catch).</p>
-				</div>
-				<div class="pr-right hidden">
-					<div class="pr-img-cont">
-						<img class="project-img" src="images/project2.PNG">
-					</div>
-					<div class="pr-info">
-						<a href="https://laureanochort.github.io/CrossMarket/" target="_blank" class="visit">Visitar</a>
-						<a href="https://github.com/LaureanoChort/CrossMarket" target="_blank" class="repo">Ver Repositorio</a>
-					</div>
-				</div>
-			</div>
-			<div class="project">
-				<div class="pr-left hidden">
-					<h3>Emily Brontë</h3>
-					<p>Landing-page realizada a un Instituto de Inglés de mi ciudad. El estilo fue dado con CSS sin ningún framework, intentando replicar y combinar diferentes diseños tomados como guía, buscando desembocar en una idea original y coherente al rubro. Con JavaScript programé el slider, las animaciones al scrollear, la animación de la barra de navegación y el menú responsive.
-				</div>
-				<div class="pr-right hidden">
-					<div class="pr-img-cont">
-						<img class="project-img" src="images/project1.PNG">
-					</div>
-					<div class="pr-info">
-						<a href="https://laureanochort.github.io/Emily-Bronte/" target="_blank" class="visit">Visitar</a>
-						<a href="https://github.com/LaureanoChort/Emily-Bronte" target="_blank" class="repo">Ver Repositorio</a>
-					</div>
-				</div>
-			</div>
-			<div class="project">
-				<div class="pr-left hidden">
-					<h3>WeatherApp</h3>
-					<p>Sencilla aplicación en la cual se puede buscar el clima de una ciudad específica. La idea del proyecto era realizar por primera vez peticiones a una API, en este caso a través de fetch, y luego trabajar con los resultados obtenidos en una promesa. De esta manera obtenemos la temperatura actual, las temperaturas máximas y mínimas, la humedad, entre otros datos, y los mostramos en el DOM.</p>
-				</div>
-				<div class="pr-right hidden">
-					<div class="pr-img-cont">
-						<img class="project-img" src="images/project3.PNG">
-					</div>
-					<div class="pr-info">
-						<a href="https://laureanochort.github.io/WeatherApp/" target="_blank" class="visit">Visitar</a>
-						<a href="https://github.com/LaureanoChort/WeatherApp" target="_blank" class="repo">Ver Repositorio</a>
-					</div>
-				</div>
-			</div>
-			<div class="project">
-				<div class="pr-left hidden">
-					<h3>Lista de Tareas</h3>
-					<p>CRUD en el que podemos agregar una tarea a realizar, posteriormente editarla, marcarla como completada o eliminarla. Tambien tenemos la posibilidad de filtrarlas segun su estado.</p>
-				</div>
-				<div class="pr-right hidden">
-					<div class="pr-img-cont">
-						<img class="project-img" src="images/project4.png">
-					</div>
-					<div class="pr-info">
-						<a href="https://laureanochort.github.io/Tasks-List/" target="_blank" class="visit">Visitar</a>
-						<a href="https://github.com/LaureanoChort/Tasks-List" target="_blank" class="repo">Ver Repositorio</a>
-					</div>
-				</div>
-			</div>
-			<div class="project2"></div>
-			<div class="project3"></div>
-			<div class="project4"></div>
-		</div>
-	</section>
-	<section class="contact section" id="contact">
-		<h2 class="title hidden title-ap">Contacto</h2>
-		<div class="hidden title-ap"><a href="https://github.com/LaureanoChort" target="_blank"><i class="fab fa-github"></i>Github</a></div>
-		<div class="hidden title-ap"><a href="https://www.linkedin.com/in/laureano-chort-049124208" target="_blank"><i class="fab fa-linkedin-in"></i>Linkedin</a></div>
-		<div class="hidden title-ap"><a href="mailto:chortlaureano@gmail.com" target="_blank"><i class="fas fa-envelope"></i>chortlaureano@gmail.com</a></div>
-	</section>
-	<footer>
-		<a href="https://drive.google.com/file/d/1x1vljSENaD6CzpO-7c2FnkvbMcj5qA6y/view?usp=sharing" target="_blank"><i class="far fa-file"></i>Mi Curriculum</a>
-		<hr>
-		<p>© 2021 - Laureano Chort</p>
-	</footer>
-	<script type="text/javascript" src="script.js"></script>
-</body>
-</html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Laureano Chort</title>
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link
+      href="//db.onlinewebfonts.com/c/55d433372d270829c51e2577a78ef12d?family=Monument+Extended"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="nav-background">
+      <div class="nav">
+        <div class="close-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <ul>
+          <li><a class="menu-item" href="#home">Inicio</a></li>
+          <li><a class="menu-item" href="#about-me">Sobre mi</a></li>
+          <li><a class="menu-item" href="#projects">Proyectos</a></li>
+          <li><a class="menu-item" href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="header">
+      <div class="home" id="home">
+        <div class="topbar">
+          <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="right">
+            <a href="https://github.com/LaureanoChort" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+        <div class="main">
+          <div class="text">
+            <h1 class="text-1">Laureano Chort</h1>
+            <div class="txt-cont">
+              <h3 class="text-2"></h3>
+            </div>
+          </div>
+        </div>
+        <div class="arrow-btn">
+          <a href="#about-me"><i class="fas fa-chevron-down"></i></a>
+        </div>
+        <div class="up-btn">
+          <a href="#home"><i class="far fa-arrow-alt-circle-up"></i></a>
+        </div>
+      </div>
+    </div>
+    <section class="about-me section" id="about-me">
+      <h2 class="title hidden title-ap">Sobre mi</h2>
+      <div class="about-content">
+        <div class="left">
+          <div>
+            <img class="img-wrapper hidden" src="images/me.jpg" />
+          </div>
+        </div>
+        <div class="right">
+          <p class="hidden">
+            Hola! Me llamo Laureano Chort, soy desarrollador front-end. Tengo 27
+            años y vivo en Villa Mercedes, San Luis (dispuesto a reubicarme).
+          </p>
+          <p class="hidden">
+            Descubrí en la programación, y mas específicamente en el desarrollo
+            web, una actividad que me apasiona y me impulsa a seguir aprendiendo
+            cada día!
+          </p>
+          <p class="hidden">
+            Adquirí los fundamentos básicos con el curso "Argentina Programa",
+            pero los he profundizado de forma autodidacta. Ahora me encuentro
+            realizando proyectos en React y posteriormente me encantaría
+            aprender Node.js, Express y MongoDB para especializarme en el stack
+            MERN.
+          </p>
+          <p class="hidden">
+            Estoy buscando mi primera oportunidad en este rubro, me siento listo
+            para formar parte de un equipo de trabajo y ayudar con mis
+            conocimientos.
+          </p>
+          <div class="cv-btn-cont hidden">
+            <a
+              class="my-cv"
+              href="https://drive.google.com/file/d/1Owo8ljkjk4DCIWtOIEwojP3kR67MGhg6/view?usp=sharing"
+              target="_blank"
+              >Mi CV</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="stack">
+        <h3 class="title">Stack</h3>
+        <ul class="items">
+          <li>
+            <i class="fab fa-html5"></i>
+            <p class="s-name">HTML</p>
+          </li>
+          <li>
+            <i class="fab fa-css3-alt"></i>
+            <p class="s-name">CSS</p>
+          </li>
+          <li>
+            <i class="fab fa-js"></i>
+            <p class="s-name">JavaScript</p>
+          </li>
+          <li>
+            <i class="fab fa-react"></i>
+            <p class="s-name">React</p>
+          </li>
+          <li>
+            <i class="fab fa-bootstrap"></i>
+            <p class="s-name">Bootstrap</p>
+          </li>
+          <li>
+            <i class="fab fa-git-alt"></i>
+            <p class="s-name">Git</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="projects section" id="projects">
+      <h2 class="title hidden title-ap">Proyectos</h2>
+      <div class="projects-wrapper">
+        <div class="project">
+          <div class="pr-left hidden">
+            <h3>MercadoLibre Clone</h3>
+            <p>
+              Proyecto que intenta imitar de forma básica a MercadoLibre.
+              Podemos ver la informacion de cada producto en una pagina
+              individual y agregarlos o quitarlos del carrito. Dentro de este
+              último, vemos los montos totales y otros detalles de la compra.
+              <br />
+              Mi objetivo fue aplicar useReducer para el funcionamiento del
+              carrito.
+              <br />
+              <b>Tecnologías:</b> React, Bootstrap, Sass.
+            </p>
+          </div>
+          <div class="pr-right hidden">
+            <div class="pr-img-cont">
+              <img class="project-img" src="images/project1.png" />
+            </div>
+            <div class="pr-info">
+              <a
+                href="https://mercadolibre-pr.netlify.app/"
+                target="_blank"
+                class="visit"
+                >Visitar</a
+              >
+              <a
+                href="https://github.com/LaureanoChort/mlclone-pr"
+                target="_blank"
+                class="repo"
+                >Ver Repositorio</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="pr-left hidden">
+            <h3>The Cocktail DB</h3>
+            <p>
+              En esta página podemos buscar cocktails y obtener información
+              sobre sus ingredientes y preparación. Forma parte de un curso de
+              FreeCodeCamp. Realizamos pedidos a la API de TheCocktailDB para
+              obtener los datos.
+              <br />
+              Me sirvió para utilizar useContext, React Router y Sass en un
+              proyecto por primera vez.
+              <br />
+              <b>Tecnologías:</b> React, Bootstrap, Sass.
+            </p>
+          </div>
+
+          <div class="pr-right hidden">
+            <div class="pr-img-cont">
+              <img class="project-img" src="images/project2.png" />
+            </div>
+            <div class="pr-info">
+              <a
+                href="https://cocktails-pr-ch.netlify.app/"
+                target="_blank"
+                class="visit"
+                >Visitar</a
+              >
+              <a
+                href="https://github.com/LaureanoChort/drinks-pr"
+                target="_blank"
+                class="repo"
+                >Ver Repositorio</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="pr-left hidden">
+            <h3>Lista de Tareas</h3>
+            <p>
+              CRUD simple en el que se puede agregar una tarea, editarla,
+              eliminarla y/o vacíar la lista. Ademas, cada una de estas acciones
+              es acompañada por una alerta que la describe.
+              <br />
+              Fue mi primer proyecto con frameworks y librerías.
+              <br />
+              <b>Tecnologías: </b> React, Bootstrap.
+            </p>
+          </div>
+          <div class="pr-right hidden">
+            <div class="pr-img-cont">
+              <img class="project-img" src="images/project3.png" />
+            </div>
+            <div class="pr-info">
+              <a
+                href="https://crud-pr-ch.netlify.app/"
+                target="_blank"
+                class="visit"
+                >Visitar</a
+              >
+              <a
+                href="https://github.com/LaureanoChort/crud-pr"
+                target="_blank"
+                class="repo"
+                >Ver Repositorio</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="pr-left hidden">
+            <h3>Mi Portfolio</h3>
+            <p>
+              Es la página actual, en donde podemos ver informacion sobre mi y
+              mis proyectos. Cuenta con un "side menu" y es completamente
+              responsive.
+              <br />
+              <b>Tecnologías: </b> HTML, CSS, JavaScript.
+            </p>
+          </div>
+          <div class="pr-right hidden">
+            <div class="pr-img-cont">
+              <img class="project-img" src="images/project4.png" />
+            </div>
+            <div class="pr-info">
+              <a href="#home" class="visit">Visitar</a>
+              <a
+                href="https://github.com/LaureanoChort/Tasks-List"
+                target="_blank"
+                class="repo"
+                >Ver Repositorio</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="pr-left hidden">
+            <h3>Emily Brontë</h3>
+            <p>
+              Landing page realizada a un Instituto de Inglés de mi ciudad.
+              Intenté replicar y combinar diferentes diseños tomados como guía,
+              buscando desembocar en una idea original y coherente al rubro. Con
+              JavaScript programé el slider, las animaciones al scrollear, la
+              animación de la barra de navegación y el menú responsive.
+              <br />
+              <b>Tecnologías: </b> HTML, CSS, JavaScript.
+            </p>
+          </div>
+          <div class="pr-right hidden">
+            <div class="pr-img-cont">
+              <img class="project-img" src="images/project5.png" />
+            </div>
+            <div class="pr-info">
+              <a
+                href="https://laureanochort.github.io/Emily-Bronte/"
+                target="_blank"
+                class="visit"
+                >Visitar</a
+              >
+              <a
+                href="https://github.com/LaureanoChort/Emily-Bronte"
+                target="_blank"
+                class="repo"
+                >Ver Repositorio</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="pr-left hidden">
+            <h3>CrossMarket</h3>
+            <p>
+              En este proyecto podemos elegir entre distintos elementos de
+              entrenamiento y agregarlos a un carrito de compras. Dentro de
+              este, se puede modificar la cantidad de unidades, ver el monto
+              total, eliminar algun elemento o vaciar el carrito. Puse en
+              práctica los conceptos de POO, destructuring, programación
+              funcional, y utilicé funciones asíncronas.
+              <br />
+              <b>Tecnologías: </b> HTML, CSS, JavaScript.
+            </p>
+          </div>
+          <div class="pr-right hidden">
+            <div class="pr-img-cont">
+              <img class="project-img" src="images/project6.png" />
+            </div>
+            <div class="pr-info">
+              <a
+                href="https://laureanochort.github.io/Tasks-List/"
+                target="_blank"
+                class="visit"
+                >Visitar</a
+              >
+              <a
+                href="https://github.com/LaureanoChort/CrossMarket"
+                target="_blank"
+                class="repo"
+                >Ver Repositorio</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="pr-left hidden">
+            <h3>WeatherApp</h3>
+            <p>
+              Sencilla aplicación en la cual se puede buscar el clima de una
+              ciudad específica. La idea del proyecto era realizar por primera
+              vez peticiones a una API con fetch y mostrar en el DOM los datos
+              obtenidos.
+              <br />
+              <b>Tecnologías: </b> HTML, CSS, JavaScript.
+            </p>
+          </div>
+          <div class="pr-right hidden">
+            <div class="pr-img-cont">
+              <img class="project-img" src="images/project7.png" />
+            </div>
+            <div class="pr-info">
+              <a
+                href="https://laureanochort.github.io/WeatherApp/"
+                target="_blank"
+                class="visit"
+                >Visitar</a
+              >
+              <a
+                href="https://github.com/LaureanoChort/WeatherApp"
+                target="_blank"
+                class="repo"
+                >Ver Repositorio</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact section" id="contact">
+      <h2 class="title hidden title-ap">Contacto</h2>
+      <div class="hidden title-ap">
+        <a href="https://github.com/LaureanoChort" target="_blank"
+          ><i class="fab fa-github"></i>Github</a
+        >
+      </div>
+      <div class="hidden title-ap">
+        <a
+          href="https://www.linkedin.com/in/laureano-chort-049124208"
+          target="_blank"
+          ><i class="fab fa-linkedin-in"></i>Linkedin</a
+        >
+      </div>
+      <div class="hidden title-ap">
+        <a href="mailto:chortlaureano@gmail.com" target="_blank"
+          ><i class="fas fa-envelope"></i>chortlaureano@gmail.com</a
+        >
+      </div>
+    </section>
+    <footer>
+      <a
+        href="https://drive.google.com/file/d/1Owo8ljkjk4DCIWtOIEwojP3kR67MGhg6/view?usp=sharing"
+        target="_blank"
+        ><i class="far fa-file"></i>Mi Curriculum</a
+      >
+      <hr />
+      <p class="footer-name">© 2021 - Laureano Chort</p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
